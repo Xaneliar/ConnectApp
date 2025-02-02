@@ -1,80 +1,67 @@
----
+## 📌 CONNECT – Event Discovery & Ticket Booking App
+CONNECT is a Java-based event discovery application designed to help users find local events and movies in real-time based on their location. With a user-friendly Java Swing interface and robust backend powered by MySQL, CONNECT streamlines event exploration, ticket booking, and community engagement.
 
-**Project Description:**
+```md
 
-**CONNECT** is an innovative location-based mobile application that simplifies event and movie discovery for users. The app automatically identifies the user's city and provides curated recommendations for local events, such as concerts, theater performances, and film screenings. With seamless integration with ticket booking platforms like BookMyShow, it ensures users can easily reserve tickets to their favorite activities.  
+## 🏆 Overview
+CONNECT is a Java-based event management application that allows users to discover local events, movies, and entertainment options based on their location. The app is built using **Java Swing** for the UI and **MySQL** for data management, integrating **BookMyShow API** for ticket bookings and **Twilio API** for OTP authentication.
 
-The application is developed using Java and MySQL for efficient data management, featuring a secure user authentication system that includes OTP-based login for enhanced security. Users can share feedback through testimonials and enjoy personalized content tailored to their location.
+## 🚀 **Key Features**
+- 🌍 **Location-Based Event Discovery** – Automatically detects the user’s city and provides a curated list of nearby events.
+- 🎭 **Diverse Event Categories** – Browse concerts, theater performances, movies, workshops, and more.
+- 🎟 **Seamless Ticket Booking** – Integrated with **BookMyShow** for quick ticket purchases.
+- 🔐 **Secure Login & OTP Authentication** – Uses **Twilio API** for secure user verification.
+- 💬 **User Testimonials & Reviews** – Read and share experiences about attended events.
+- 📊 **Admin Dashboard** – Manage event listings, user feedback, and security settings. 
 
----
+## 📌 Tech Stack
+- **Frontend:** Java Swing (GUI)
+- **Backend:** Java (Core), MySQL
+- **Database:** MySQL 5.7+
+- **APIs:**  
+  - **IPinfo API** – For location detection  
+  - **Twilio API** – For OTP-based authentication  
+  - **BookMyShow API** – For ticket bookings  
 
-**README.md:**
+## 🏗 Installation & Setup
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-repo/connect.git
+   cd connect
+   ```
 
-```markdown
-# CONNECT - Local Event Discovery Application  
+2. **Install Dependencies**  
+   - Ensure **Java 8+** and **MySQL** are installed.
+   - Create a MySQL database and import `connect.sql`.
 
-## Project Overview  
-CONNECT is a mobile application designed to help users discover local events and movies effortlessly. By leveraging geolocation services, the app provides personalized event listings, allowing users to find concerts, shows, and social events happening nearby. With integration for ticket booking and user feedback, CONNECT aims to be the ultimate entertainment discovery tool.  
+3. **Configure APIs**
+   - Obtain API keys for **Twilio**, **IPinfo**, and **BookMyShow**.
+   - Add them to `config.properties` in the project root.
 
-## Features  
-- **Location-Based Event Discovery:** Automatically detects user location to provide relevant event suggestions.  
-- **Event Categories:** Organized listings for movies, live music, stand-up comedy, workshops, and more.  
-- **Ticket Booking Integration:** Seamless redirection to BookMyShow for ticket purchases.  
-- **User Testimonials:** Community-driven reviews help users make informed decisions.  
-- **Secure Login:** OTP-based verification for enhanced security during user and admin logins.  
+4. **Run the Application**
+   ```sh
+   javac ConnectApp.java
+   java ConnectApp
+   ```
 
-## Technical Details  
-- **Programming Language:** Java  
-- **Frontend:** Java Swing  
-- **Backend:** MySQL  
-- **APIs Used:**  
-  - IPinfo API for location detection  
-  - Twilio API for OTP verification  
-  - BookMyShow for ticket booking  
+## 🚀 Future Enhancements
+🔹 **AI-powered Event Recommendations** – Personalize event suggestions based on user behavior.  
+🔹 **Social Media Integration** – Allow users to share events on platforms like Instagram & Twitter.  
+🔹 **Real-Time Notifications** – Notify users about new events and ticket sales.  
+🔹 **Multi-City Support** – Expand location-based services to different cities.  
 
-## Installation Guide  
-1. **Clone the Repository:**  
-   ```bash
-   git clone <repository_url>
-   cd CONNECT-App
-   ```  
-2. **Set Up Database:**  
-   - Install MySQL and import the provided SQL script to create necessary tables.  
-   - Update database connection configurations in the `DatabaseConnection.java` file.  
+## 🤝 Contributors
+- **Aditya Nikhoria**
+- **B. Tejashwin**
+- **Gautam Soni**
+- **Surada Vaishnavi**  
+Under the guidance of **Dr. Jagadeesh M** (SRM Institute of Science and Technology).
 
-3. **Run the Application:**  
-   - Compile and execute the main class `ConnectEventsApp.java` using a Java IDE or terminal:  
-   ```bash
-   javac ConnectEventsApp.java  
-   java ConnectEventsApp  
-   ```  
+## 📄 License
+This project is licensed under the **MIT License**. Feel free to contribute and enhance the application!
 
-## Usage  
-1. Register or log in with OTP-based authentication.  
-2. Discover events based on your location.  
-3. View event details and book tickets seamlessly.  
-4. Share and read testimonials from other users.  
-
-## Security Features  
-- Password hashing for secure storage  
-- Encrypted API communication using SSL/TLS  
-- OTP-based authentication for user and admin accounts  
-
-## Future Enhancements  
-- AI-powered event recommendations  
-- Social sharing features  
-- Push notifications for event reminders  
-- Integration with additional ticketing platforms  
-
-## Contributors  
-- Aditya Nikhoria  
-- B. Tejashwin  
-- Gautam Soni  
-- Surada Vaishnavi  
-
-## Acknowledgments  
-Special thanks to Dr. Jagadeesh M and the Department of Computing Technologies, SRM Institute of Science and Technology, for their guidance and support.
-
-## License  
-[MIT License](LICENSE)  
 ```
+
+---
+
+Let me know if you need any changes! 🚀
