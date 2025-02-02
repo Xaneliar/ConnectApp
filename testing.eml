@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="jsoup-1.18.1" value="project"/>
+		<level name="json-20240303" value="project"/>
+		<level name="mysql-connector-j-9.0.0" value="project"/>
+		<level name="javax.mail" value="project"/>
+		<level name="slf4j-api-1.7.22" value="project"/>
+		<level name="twilio-9.9.1-jar-with-dependencies" value="project"/>
+		<level name="logback-core-1.1.9" value="project"/>
+		<level name="logback-classic-1.1.9" value="project"/>
+		<level name="io.github.hamawhitegg.serpapi.client" value="project"/>
+		<level name="bootstrap-5.3.3" value="project"/>
+		<level name="webjars-locator-0.52" value="project"/>
+		<level name="springframework.amqp.spring" value="project"/>
+		<level name="uk.co.caprica.vlcj" value="project"/>
+		<level name="net.java.dev.jna.jpms" value="project"/>
+	</levels>
+</component>

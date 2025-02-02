@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="slf4j-api-1.7.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Modules/slf4j-api-1.7.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Modules/twilio-9.9.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Modules/logback-core-1.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Modules/logback-classic-1.1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

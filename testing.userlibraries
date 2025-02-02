@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jsoup-1.18.1">
+    <archive path="C:/Programming/Java/Modules/jsoup-1.18.1.jar" />
+  </library>
+  <library name="json-20240303">
+    <archive path="C:/Programming/Java/Modules/json-20240303.jar" />
+  </library>
+  <library name="mysql-connector-j-9.0.0">
+    <archive path="C:/Programming/Java/Modules/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar" />
+  </library>
+  <library name="javax.mail">
+    <archive path="C:/Programming/Java/Modules/javax.mail.jar" />
+  </library>
+  <library name="slf4j-api-1.7.22">
+    <archive path="C:/Programming/Java/Modules/slf4j-api-1.7.22.jar" />
+    <archive path="C:/Programming/Java/Modules/twilio-9.9.1-jar-with-dependencies.jar" />
+    <archive path="C:/Programming/Java/Modules/logback-core-1.1.9.jar" />
+    <archive path="C:/Programming/Java/Modules/logback-classic-1.1.9.jar" />
+  </library>
+  <library name="twilio-9.9.1-jar-with-dependencies">
+    <archive path="C:/Programming/Java/Modules/twilio-9.9.1-jar-with-dependencies.jar" />
+  </library>
+  <library name="logback-core-1.1.9">
+    <archive path="C:/Programming/Java/Modules/logback-core-1.1.9.jar" />
+  </library>
+  <library name="logback-classic-1.1.9">
+    <archive path="C:/Programming/Java/Modules/logback-classic-1.1.9.jar" />
+  </library>
+</eclipse-userlibraries>
+

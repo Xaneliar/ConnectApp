@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webjars-locator-0.52">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Modules/webjars-locator-0.52.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

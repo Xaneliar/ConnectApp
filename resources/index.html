@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONNECT - Local Events Near You</title>
+    <style>
+        :root {
+            --dark-purple: #2E073F;
+            --medium-purple: #7A1CAC;
+            --light-purple: #AD49E1;
+            --pale-purple: #EBD3F8;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            color: var(--pale-purple);
+        }
+
+        .background {
+            background-image: url("c1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .overlay {
+            background-color: rgba(46, 7, 63, 0.8);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: rgba(46, 7, 63, 0.9);
+        }
+
+        .logo {
+            color: var(--light-purple);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: var(--pale-purple);
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--light-purple);
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .cta {
+            background-color: rgba(106, 11, 157, 0.8);
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(173, 73, 225, 0.3);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--pale-purple);
+            line-height: 1.2;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .login {
+            background-color: var(--light-purple);
+            color: var(--dark-purple);
+        }
+
+        .login:hover {
+            background-color: var(--pale-purple);
+        }
+
+        .signup {
+            background-color: var(--dark-purple);
+            color: var(--pale-purple);
+            border: 2px solid var(--light-purple);
+        }
+
+        .signup:hover {
+            background-color: var(--light-purple);
+            color: var(--dark-purple);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(46, 7, 63, 0.7);
+        }
+
+        .modal.visible {
+            display: block;
+        }
+
+        .modal-content {
+            background-color: var(--pale-purple);
+            margin: 15% auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 20px rgba(173, 73, 225, 0.5);
+        }
+
+        .close {
+            color: var(--medium-purple);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .close:hover {
+            color: var(--dark-purple);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid var(--medium-purple);
+            border-radius: 5px;
+            background-color: var(--pale-purple);
+            color: var(--dark-purple);
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--light-purple);
+            box-shadow: 0 0 5px rgba(173, 73, 225, 0.5);
+        }
+
+        .modal h2 {
+            color: var(--dark-purple);
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .locate-me-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .locate-me-btn img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .event-categories {
+            background-image: url("b1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #140E36;
+            color: #EBD3F8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: #2E073F;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 300px;
+        }
+
+        .search-container input[type="text"] {
+            padding-left: 40px;
+            padding-right: 20px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background-color: #402158;
+            color: #EBD3F8;
+            width: 100%;
+        }
+
+        .search-container .search-icon {
+            position: absolute;
+            left: 10px;
+            bottom: 2;
+            font-size: 20px;
+            cursor: pointer;
+            color: #AD49E1;
+        }
+
+        .categories-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .categories-content h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category {
+            position: relative;
+            width: calc(33.33% - 20px);
+            max-width: 350px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .category img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .category:hover img {
+            transform: scale(1.1);
+        }
+
+        .category h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #EBD3F8;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .category {
+                width: calc(50% - 15px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .category {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <nav>
+                <div class="logo">CONNECT</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="home.html">Events</a>
+                    <a href="testimonial.html">Testimonials</a>
+
+                </div>
+            </nav>
+            <div class="content">
+                <div class="cta">
+                    <h1>From Screen to Street:</h1>
+                    <p class="description">Discover the hottest concerts, festivals, and local happenings instantly. Your city's live experiences, curated for you in just a few taps.</p>
+                    <div class="buttons">
+                        <button class="login" onclick="openModal('loginModal')">Log In</button>
+                        <button class="login" onclick="openModal('signupModal')">Sign Up</button>
+                        <button class="login" onclick="openModal('adminLoginModal')">Admin Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="login">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signupModal')">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="tel" id="phoneNumber" placeholder="Phone Number" required>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Re-enter Password" required>
+                <button type="submit" class="signup">Next</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Login Modal -->
+    <div id="adminLoginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('adminLoginModal')">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+                <input type="text" placeholder="Admin Username" required>
+                <input type="password" placeholder="Admin Password" required>
+                <button type="submit" class="login">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- OTP Modal -->
+    <div id="otpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('otpModal')">&times;</span>
+            <h2>Verify OTP</h2>
+            <form id="otpForm">
+                <input type="text" id="otp-input" placeholder="Enter OTP" required>
+                <button type="submit" class="signup">Verify OTP</button>
+                <p id="otp-error" class="error-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Location Screen -->
+    <div id="location-screen" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('location-screen')">&times;</span>
+            <h2>Set Your Location</h2>
+            <button id="locate-me-btn" class="login locate-me-btn">
+                <img src="target.png" alt="Locate icon">
+                Locate Me
+            </button><br>
+            <button id="enter-location-btn" class="signup">Enter Location</button>
+        </div>
+    </div>
+
+    <!-- Manual Location Input Screen -->
+    <div id="manual-location-screen" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('manual-location-screen')">&times;</span>
+            <h2>Enter Your Location</h2>
+            <form id="manual-location-form">
+                <input type="text" id="manual-location-input" placeholder="Type your location here" required>
+                <button type="submit" class="signup">Submit Location</button>
+            </form>
+            <p id="location-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="event-categories" style="display: none;">
+       
+        <div class="categories-content">
+            <h1>Your Life Begins Here</h1>
+            <p class="subtitle">Discover, Explore, Experience</p>
+            <div class="categories">
+                <a href="movies.html" class="category">
+                    <img src="movie.jpg" alt="Movies">
+                    <h2>Movies</h2>
+                </a>
+                <a href="concerts.html" class="category">
+                    <img src="concert.jpg" alt="Concerts">
+                    <h2>Live Concerts</h2>
+                </a>
+                <a href="standup.html" class="category">
+                    <img src="standup.jpg" alt="Standup">
+                    <h2>Standup</h2>
+                </a>
+                <a href="theater.html" class="category">
+                    <img src="theater.jpg" alt="Theater">
+                    <h2>Theater Shows</h2>
+                </a>
+                <a href="workshops.html" class="category">
+                    <img src="workshop.jpg" alt="Workshops">
+                    <h2>Workshop & Other</h2>
+                </a>
+                
+                <a href="nightlife.html" class="category">
+                    <img src="nightlife.jpg" alt="Nightlife">
+                    <h2>Night Life</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentAction = '';
+        let generatedOtp = '';
+
+        // Function to open a modal
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('visible');
+        }
+
+        // Function to close a modal
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('visible');
+        }
+
+        // Function to generate a random OTP
+        function generateOtp() {
+            generatedOtp = Math.floor(100000 + Math.random() * 900000); // Generate a 6-digit OTP
+            console.log("Generated OTP:", generatedOtp); // Log OTP to the console (for testing)
+        }
+
+        // Handle signup form submission
+        document.getElementById('signupForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            generateOtp();
+            currentAction = 'signup';
+            closeModal('signupModal');
+            openModal('otpModal');
+        });
+
+        // Handle regular login form submission
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const username = document.querySelector('#loginForm input[type="text"]').value;
+            const password = document.querySelector('#loginForm input[type="password"]').value;
+            currentAction = 'login';
+            generateOtp();
+            closeModal('loginModal');
+            openModal('otpModal');
+        });
+
+        // Handle admin login form submission
+        document.getElementById('adminLoginForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            currentAction = 'admin';
+            generatedOtp = 7777;
+            closeModal('adminLoginModal');
+            openModal('otpModal');
+        });
+
+        // Handle OTP form submission
+        document.getElementById('otpForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const otp = document.getElementById('otp-input').value;
+            if (otp == generatedOtp) {
+                alert(`${currentAction.charAt(0).toUpperCase() + currentAction.slice(1)} successful LogIn!`);
+                closeModal('otpModal');
+                showLocationScreen();
+            } else {
+                document.getElementById('otp-error').innerText = "Invalid OTP. Please try again.";
+            }
+        });
+
+        // Function to show the location selection screen
+        function showLocationScreen() {
+            openModal('location-screen');
+        }
+
+        // Handle location option
+        document.getElementById('locate-me-btn').addEventListener('click', function () {
+            locateMe();
+        });
+
+        document.getElementById('enter-location-btn').addEventListener('click', function () {
+            closeModal('location-screen');
+            openModal('manual-location-screen');
+        });
+
+        // Handle manual location form submission
+        document.getElementById('manual-location-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const location = document.getElementById('manual-location-input').value;
+            if (location) {
+                alert(`Location set to: ${location}`);
+                closeModal('manual-location-screen');
+            } else {
+                document.getElementById('location-error').innerText = "Please enter a valid location.";
+            }
+        });
+
+             // Modify the locateMe function
+             function locateMe() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    function (position) {
+                        alert(`Location detected: Latitude ${position.coords.latitude}, Longitude ${position.coords.longitude}`);
+                        closeModal('location-screen');
+                        showEventCategories();
+                    },
+                    function (error) {
+                        alert("Error detecting location. Please try again.");
+                    }
+                );
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        // Modify the manual location form submission
+        document.getElementById('manual-location-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const location = document.getElementById('manual-location-input').value;
+            if (location) {
+                alert(`Location set to: ${location}`);
+                closeModal('manual-location-screen');
+                showEventCategories();
+            } else {
+                document.getElementById('location-error').innerText = "Please enter a valid location.";
+            }
+        });
+
+        // Function to show event categories
+        function showEventCategories() {
+            document.querySelector('.background').style.display = 'none';
+            document.querySelector('.event-categories').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+

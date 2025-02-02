@@ -1,0 +1,152 @@
+:root {
+    --dark-purple: #2E073F;
+    --medium-purple: #7A1CAC;
+    --light-purple: #AD49E1;
+    --pale-purple: #EBD3F8;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    color: var(--pale-purple);
+}
+.background {
+    background-image: url("c1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.overlay {
+    background-color: rgba(46, 7, 63, 0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(46, 7, 63, 0.9);
+}
+.logo {
+    color: var(--light-purple);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-links a {
+    color: var(--pale-purple);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: var(--light-purple);
+}
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cta {
+    background-color: rgba(122, 28, 172, 0.8);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(173, 73, 225, 0.3);
+    max-width: 600px;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--pale-purple);
+    line-height: 1.2;
+}
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.login {
+    background-color: var(--light-purple);
+    color: var(--dark-purple);
+}
+.login:hover {
+    background-color: var(--pale-purple);
+}
+.signup {
+    background-color: var(--dark-purple);
+    color: var(--pale-purple);
+    border: 2px solid var(--light-purple);
+}
+.signup:hover {
+    background-color: var(--light-purple);
+    color: var(--dark-purple);
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 7, 63, 0.7);
+}
+.modal-content {
+    background-color: var(--pale-purple);
+    margin: 15% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(173, 73, 225, 0.5);
+}
+.close {
+    color: var(--medium-purple);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.close:hover {
+    color: var(--dark-purple);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--medium-purple);
+    border-radius: 5px;
+    background-color: var(--pale-purple);
+    color: var(--dark-purple);
+}
+input:focus {
+    outline: none;
+    border-color: var(--light-purple);
+    box-shadow: 0 0 5px rgba(173, 73, 225, 0.5);
+}
+.modal h2 {
+    color: var(--dark-purple);
+    margin-bottom: 20px;
+}

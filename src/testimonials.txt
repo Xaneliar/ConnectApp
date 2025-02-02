@@ -1,0 +1,133 @@
+package com.connect.events;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.net.URL;
+import javax.imageio.ImageIO;
+
+public class EventsPage extends JPanel {
+    private static final String[] CATEGORIES = {"Movies", "Live Concerts", "Standup", "Theater Shows", "Workshop & Other", "Night Life"};
+    private static final String[] IMAGE_PATHS = {"movie.jpg", "concert.jpg", "standup.jpg", "theater.jpg", "workshop.jpg", "nightlife.jpg"};
+    private static final String[] LINKS = {"movies.html", "concerts.html", "standup.html", "theater.html", "workshops.html", "nightlife.html"};
+
+    private Image backgroundImage;
+
+    public EventsPage() {
+        // Load background image
+        try {
+            URL imageUrl = getClass().getResource("b1.jpg");
+            if (imageUrl != null) {
+                backgroundImage = ImageIO.read(imageUrl);
+            } else {
+                System.err.println("Background image not found");
+            }
+        } catch (IOException e) {
+            System.err.println("Error loading background image: " + e.getMessage());
+        }
+
+        setLayout(new BorderLayout());
+
+        // Create a custom JPanel to draw the background image
+        JPanel contentPanel = new JPanel(new GridBagLayout()) {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                if (backgroundImage != null) {
+                    g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
+                }
+            }
+        };
+
+        contentPanel.setOpaque(false);
+        contentPanel.setLayout(new GridBagLayout());
+
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridwidth = GridBagConstraints.REMAINDER;
+        gbc.anchor = GridBagConstraints.CENTER;
+        gbc.insets = new Insets(10, 0, 10, 0);
+
+        // Title label
+        JLabel titleLabel = new JLabel("Your Life Begins Here");
+        titleLabel.setFont(new Font("Arial", Font.BOLD, 32));
+        titleLabel.setForeground(Color.WHITE);
+        contentPanel.add(titleLabel, gbc);
+
+        // Subtitle label
+        JLabel subtitleLabel = new JLabel("Discover, Explore, Experience");
+        subtitleLabel.setFont(new Font("Arial", Font.ITALIC, 18));
+        subtitleLabel.setForeground(Color.WHITE);
+        contentPanel.add(subtitleLabel, gbc);
+
+        JPanel categoriesPanel = new JPanel(new GridLayout(2, 3, 20, 20));
+        categoriesPanel.setOpaque(false);
+        for (int i = 0; i < CATEGORIES.length; i++) {
+            JPanel categoryPanel = createCategoryPanel(CATEGORIES[i], IMAGE_PATHS[i], LINKS[i]);
+            categoriesPanel.add(categoryPanel);
+        }
+
+        gbc.insets = new Insets(20, 0, 0, 0);
+        contentPanel.add(categoriesPanel, gbc);
+
+        add(contentPanel, BorderLayout.CENTER);
+    }
+
+    private JPanel createCategoryPanel(String category, String imagePath, String link) {
+        JPanel panel = new JPanel(new BorderLayout(0, 5));
+        panel.setOpaque(false);
+        try {
+            URL imageUrl = getClass().getResource(imagePath);
+            if (imageUrl != null) {
+                Image image = ImageIO.read(imageUrl);
+                if (image != null) {
+                    Image scaledImage = image.getScaledInstance(180, 120, Image.SCALE_SMOOTH);
+                    JLabel imageLabel = new JLabel(new ImageIcon(scaledImage));
+                    panel.add(imageLabel, BorderLayout.CENTER);
+                } else {
+                    panel.add(new JLabel("Image not found", SwingConstants.CENTER), BorderLayout.CENTER);
+                }
+            } else {
+                panel.add(new JLabel("Image not found", SwingConstants.CENTER), BorderLayout.CENTER);
+            }
+        } catch (IOException | IllegalArgumentException e) {
+            panel.add(new JLabel("Error loading image", SwingConstants.CENTER), BorderLayout.CENTER);
+        }
+
+        JLabel categoryLabel = new JLabel(category, SwingConstants.CENTER);
+        categoryLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        categoryLabel.setForeground(Color.WHITE);
+        panel.add(categoryLabel, BorderLayout.SOUTH);
+
+        panel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                System.out.println("Clicked on: " + link);
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                panel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+                panel.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+            }
+        });
+
+        return panel;
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Your Life Begins Here");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(800, 600);
+            frame.setLocationRelativeTo(null);
+            frame.add(new EventsPage());
+            frame.setVisible(true);
+        });
+    }
+}

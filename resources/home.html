@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Life Starts Here</title>
+    <style>
+        body {
+            
+        
+            background-image: url("b1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #140E36;
+            color: #EBD3F8;
+        }
+        .navbar {
+            background-color: #2E073F;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #AD49E1;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 300px;
+        }
+        .search-container input[type="text"] {
+            padding-left: 40px; /* Padding to create space for the icon */
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background-color: #402158;
+            color: #EBD3F8;
+            width: 100%;
+        }
+        .search-container .search-icon  {
+            position: absolute;
+            left: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #AD49E1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ece6ee;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #ecebeb;
+            font-size: 18px;
+            margin-top: 0;
+       }
+       .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .category {
+            position: relative;
+            margin: 15px;
+            width: calc(33.33% - 30px);
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+        .category img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .category:hover img {
+            transform: scale(1.1);
+        }
+        .category h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #EBD3F8;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    </nav>
+    <div class="container">
+        <h1>Your Life Begins Here</h1>
+        <p class="subtitle">Discover, Explore, Experience</p>
+        <div class="categories">
+            <a href="movies.html" class="category">
+                <img src="movie.jpg" alt="Movies">
+                <h2>Movies</h2>
+            </a>
+            <a href="concerts.html" class="category">
+                <img src="concert.jpg" alt="Concerts">
+                <h2>Live Concerts</h2>
+            </a>
+            <a href="standup.html" class="category">
+                <img src="standup.jpg" alt="Standup">
+                <h2>Standup</h2>
+            </a>
+            <a href="theater.html" class="category">
+                <img src="theater.jpg" alt="Theater">
+                <h2>Theater Shows</h2>
+            </a>
+            <a href="workshops.html" class="category">
+                <img src="workshop.jpg" alt="Workshops">
+                <h2>Workshop & Other</h2>
+            </a>
+            <a href="nightlife.html" class="category">
+                <img src="nightlife.jpg" alt="Nightlife">
+                <h2>Night Life</h2>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

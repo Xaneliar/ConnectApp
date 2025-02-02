@@ -1,0 +1,722 @@
+{
+  "search_metadata": {
+    "id": "6718fea6749783b34624dbdd",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/3cf5c12911d20faa/6718fea6749783b34624dbdd.json",
+    "created_at": "2024-10-23 13:48:22 UTC",
+    "processed_at": "2024-10-23 13:48:22 UTC",
+    "google_url": "https://www.google.com/search?q\u003dCoffee\u0026oq\u003dCoffee\u0026uule\u003dw+CAIQICIYQ2hlbm5haSxUYW1pbCBOYWR1LEluZGlh\u0026sourceid\u003dchrome\u0026ie\u003dUTF-8",
+    "raw_html_file": "https://serpapi.com/searches/3cf5c12911d20faa/6718fea6749783b34624dbdd.html",
+    "total_time_taken": 1.18
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Coffee",
+    "location_requested": "Chennai,Tamil Nadu",
+    "location_used": "Chennai,Tamil Nadu,India",
+    "google_domain": "google.com",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Coffee",
+    "total_results": 5120000000,
+    "time_taken_displayed": 0.5,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+    "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026tbm\u003dlcl\u0026q\u003dCoffee\u0026rflfq\u003d1\u0026num\u003d10\u0026uule\u003dw+CAIQICIYQ2hlbm5haSxUYW1pbCBOYWR1LEluZGlh\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QtgN6BAgeEAE",
+    "image": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/0852398f304ec5d931859c059067868a.png"
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "rating": 3.2,
+        "reviews_original": "(213)",
+        "reviews": 213,
+        "description": "\"Good coffee at 5.00am, had together with a really good veg curry pastry.\"",
+        "lsig": "AB86z5Vuk7ZM1p7JYjmupUQ1NojT",
+        "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/6122466ed7e408fa6fbfca3203de91d3658a069cafd5882557afff52eec061d1f596e052080fd8ac.png",
+        "title": "Madras Coffee House",
+        "type": "Coffee shop",
+        "address": "Platform No - 11, Madras Coffee House, Chennai Central New Concourse Area Dr.MGR. Central Railway Station, Chennai, Southern Railway",
+        "place_id": "12969557097308706535",
+        "place_id_search": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026ludocid\u003d12969557097308706535\u0026q\u003dCoffee",
+        "gps_coordinates": {
+          "latitude": 13.082617,
+          "longitude": 80.274994
+        }
+      },
+      {
+        "position": 2,
+        "rating": 5.0,
+        "reviews_original": "(12)",
+        "reviews": 12,
+        "description": "\"Leo\u0027s Cafe is a gem!\"",
+        "lsig": "AB86z5XQfoOyB6jbz7zhXG-h6S7E",
+        "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/6122466ed7e408fa6fbfca3203de91d3b86b061951db45abb635401228056b284df8dd0565ceaa47.jpeg",
+        "title": "Leo\u0027s cafe 24X7 OPEN | லியோ\u0027ஸ் கஃபே | Chennai Tea coffee cappuccino Sandwich Pizza Mocktail Burger | Hotel AK International",
+        "type": "Cafe",
+        "address": "3rd Floor, 29/14, Cudappa Rangiah St, above Hotel Ak International",
+        "place_id": "16103026803039078679",
+        "place_id_search": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026ludocid\u003d16103026803039078679\u0026q\u003dCoffee",
+        "gps_coordinates": {
+          "latitude": 13.081224,
+          "longitude": 80.26801
+        }
+      },
+      {
+        "position": 3,
+        "rating": 4.4,
+        "reviews_original": "(1.2K)",
+        "reviews": 1200,
+        "price": "$$$",
+        "description": "\"Incredible lattes I especially recommend the Turkish and Spanish latte.\"",
+        "lsig": "AB86z5Uss78xFd169EBeBGMy924B",
+        "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/6122466ed7e408fa6fbfca3203de91d31dc4a861be9512015444c6216316cbfe64ec5489ae078200.jpeg",
+        "title": "Coffee? Since 1999",
+        "type": "Cafe",
+        "address": "1, Pycrofts Garden Rd",
+        "place_id": "58147605725267074",
+        "place_id_search": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026ludocid\u003d58147605725267074\u0026q\u003dCoffee",
+        "gps_coordinates": {
+          "latitude": 13.063019,
+          "longitude": 80.2499
+        }
+      }
+    ],
+    "more_locations_link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026tbm\u003dlcl\u0026q\u003dCoffee\u0026rflfq\u003d1\u0026num\u003d10\u0026uule\u003dw+CAIQICIYQ2hlbm5haSxUYW1pbCBOYWR1LEluZGlh\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QjGp6BAgkEAE"
+  },
+  "inline_images": [
+    {
+      "source": "https://en.wikipedia.org/wiki/Coffee",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSpUU_wMwFwV4RWUxZwbl4vtmcmZ-a1dxn7CXM-H_x7h69rkxWIMLZTCG0\u0026s",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/1200px-Latte_and_dark_coffee.jpg",
+      "title": "Coffee - Wikipedia",
+      "source_name": "Wikipedia"
+    },
+    {
+      "source": "https://www.royalcupcoffee.com/blog/articles/selecting-right-coffee-every-time-day",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTBq6myMdVA4cykxdsYt4jMBRGOWcZOGH7PNbj3CDf0BkX6ESMTVd4C5wo\u0026s",
+      "original": "https://www.royalcupcoffee.com/sites/default/files/images/blog/AdobeStock_159183621update.jpg",
+      "title": "Selecting the Right Coffee for Every Time if Day | Royal Cup ...",
+      "source_name": "Royal Cup Coffee"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/Coffee_bean",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSuebMJCHYdFyX9Dapd386ojcCybVYJ3zQhUNxU-InWg5WcRuAhfzGjnz4\u0026s",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1200px-Roasted_coffee_beans.jpg",
+      "title": "Coffee bean - Wikipedia",
+      "source_name": "Wikipedia"
+    },
+    {
+      "source": "https://neurosciencenews.com/coffee-readiness-caffeine-23543/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcT1VPL4NI6IQ_5XJtol2jpz7MKuJKxvXaArQ-dfr0pukvJm2fHrbBs3zEk\u0026s",
+      "original": "https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg",
+      "title": "Beyond Caffeine: How the Coffee Experience Enhances Brain ...",
+      "source_name": "Neuroscience News"
+    },
+    {
+      "source": "https://www.bbcgoodfood.com/recipes/collection/coffee-recipes",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSFIy1piKxcsCFA2hADCZ3IRBgWfQEL7F7yIZeWlxT4yoAda_tYDFG6e5E\u0026s",
+      "original": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg",
+      "title": "Coffee recipes | Good Food",
+      "source_name": "BBC Good Food"
+    },
+    {
+      "source": "https://www.medicalnewstoday.com/articles/270202",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQg1-4FxajjaW8i-lrah54qwQefnqM1jMytL6vk-FSwp1gIJ4iTOyAdA5g\u0026s",
+      "original": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/270202_2200-800x1200.jpg",
+      "title": "Coffee health benefits: Diabetes, heart health, liver cancer ...",
+      "source_name": "MedicalNewsToday"
+    },
+    {
+      "source": "https://rouvy.com/blog/cycling-and-coffee",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcR4R_m11cCs86VQ09PSxTkv6Xi0NX1tG19fvtTZ4wk6C0o9oAJ2q8LnfJE\u0026s",
+      "original": "https://thumbor.rouvy.com/5IZKf6zwR2iPni-RiWuFFj4YvQA\u003d/smart/https%3A%2F%2Fcdn.rouvy.com%2Fcms%2Fshutterstock_2052696470_min_deaebabc60%2Fshutterstock_2052696470_min_deaebabc60.jpg",
+      "title": "What\u0027s the buzz about cycling and coffee? | ROUVY",
+      "source_name": "ROUVY"
+    },
+    {
+      "source": "https://www.rush.edu/news/health-benefits-coffee",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTwf65FN7t8q5fTlJih4xBGjWTftZFMAEmDfuo2pmBtbmJkNLWaEDB2FLA\u0026s",
+      "original": "https://www.rush.edu/sites/default/files/styles/386x217/public/media-images/Coffee_WebFeature_0.png?itok\u003dpAHzBvuA",
+      "title": "Health Benefits of Coffee | RUSH",
+      "source_name": "Rush University Medical Center"
+    },
+    {
+      "source": "https://www.britannica.com/topic/coffee",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRp5n40FyoeGmRtKxZRs_lgK4XVjKguLplkz1a_EbrIOrRlfvxNaF5anlg\u0026s",
+      "original": "https://cdn.britannica.com/16/138916-050-93D18857/coffee-beans-ground-paper-bags.jpg",
+      "title": "Coffee | Origin, Types, Uses, History, \u0026 Facts | Britannica",
+      "source_name": "Britannica"
+    }
+  ],
+  "immersive_products": [
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538dacd069ecdc1e36006bac77d6bc6633947.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da3775c6dd749077773dadccc8d42dca7b0817a1b114505e43.png",
+      "source": "Walmart",
+      "title": "Folgers Classic Roast Ground Coffee",
+      "rating": 4.6,
+      "reviews": 17000,
+      "price": "$5.42",
+      "extracted_price": 5.42,
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjMyMzgyMjQ4NDQ2MjQ5MTIxNjkiLCJpbWFnZURvY2lkIjoiNDc2NzQ5OTE1OTA2MzI3OTE0IiwicmRzIjoiUENfMzI0NTQ3NjQwMDgzMzU1MTk0OHxQUk9EX1BDXzMyNDU0NzY0MDA4MzM1NTE5NDgiLCJxdWVyeSI6IkNvZmZlZSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjMyMzgyMjQ4NDQ2MjQ5MTIxNjkiLCJpbWFnZURvY2lkIjoiNDc2NzQ5OTE1OTA2MzI3OTE0IiwicmRzIjoiUENfMzI0NTQ3NjQwMDgzMzU1MTk0OHxQUk9EX1BDXzMyNDU0NzY0MDA4MzM1NTE5NDgiLCJxdWVyeSI6IkNvZmZlZSJ9"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da20020bf7ca59c8659ff6d480cd12ef4f.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538daa73e5d05940aa92bafb60d542307c690aacc3ae15f926165.png",
+      "source": "Black Rifle Coffee Company",
+      "title": "Black Rifle Coffee Company Murdered Out Coffee Roast",
+      "rating": 4.9,
+      "reviews": 24,
+      "price": "$16.99",
+      "extracted_price": 16.99,
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDU0MDE1MTY1ODI2NDkzNzc3NSIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiOTA3NzI0NjI0NjY0ODM5MTk0MyIsImltYWdlRG9jaWQiOiIyODIwNzkzMzM1MzU4MzI5MzU0IiwicmRzIjoiUENfMTU0NzcwNTU1ODc5Njk0NzE3ODV8UFJPRF9QQ18xNTQ3NzA1NTU4Nzk2OTQ3MTc4NSIsInF1ZXJ5IjoiQ29mZmVlIn0\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNDU0MDE1MTY1ODI2NDkzNzc3NSIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiOTA3NzI0NjI0NjY0ODM5MTk0MyIsImltYWdlRG9jaWQiOiIyODIwNzkzMzM1MzU4MzI5MzU0IiwicmRzIjoiUENfMTU0NzcwNTU1ODc5Njk0NzE3ODV8UFJPRF9QQ18xNTQ3NzA1NTU4Nzk2OTQ3MTc4NSIsInF1ZXJ5IjoiQ29mZmVlIn0%3D"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538dafe2915b4867b63198bbc8999d156aaec.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da9a69b03ac358ccbb7f4d537989c493ed7052f6962c328234.png",
+      "source": "Target",
+      "title": "Starbucks Pike Place Roast Whole Bean Coffee",
+      "rating": 4.6,
+      "reviews": 9900,
+      "price": "$9.59",
+      "extracted_price": 9.59,
+      "delivery": "Free $35+",
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ5MzY2MTExMTY2NzQxNDU5MTciLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE1Nzg1Nzg4ODYwNTQzNjgzNzkxIiwiaW1hZ2VEb2NpZCI6IjMyNzk4NDE1MTIyNDMzNTc3MDAiLCJyZHMiOiJQQ184Nzk3MjE2NDI1NzI1ODYxOTM3fFBST0RfUENfODc5NzIxNjQyNTcyNTg2MTkzNyIsInF1ZXJ5IjoiQ29mZmVlIn0\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ5MzY2MTExMTY2NzQxNDU5MTciLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE1Nzg1Nzg4ODYwNTQzNjgzNzkxIiwiaW1hZ2VEb2NpZCI6IjMyNzk4NDE1MTIyNDMzNTc3MDAiLCJyZHMiOiJQQ184Nzk3MjE2NDI1NzI1ODYxOTM3fFBST0RfUENfODc5NzIxNjQyNTcyNTg2MTkzNyIsInF1ZXJ5IjoiQ29mZmVlIn0%3D"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538dab5d86fe3e94b8d9df0aa1e703063aa14.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da37da5e9ce4b7586f8918e7e8ba03ceb0de69700971eeae06.png",
+      "source": "Amazon",
+      "title": "Maxwell House Coffee Ground Original Roast",
+      "rating": 4.6,
+      "reviews": 8200,
+      "price": "$8.08",
+      "extracted_price": 8.08,
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTYyNjYwNjcxODA1MTUyNzA3MCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI5NDA5Mjc4NTQyOTk4OTU2NDciLCJpbWFnZURvY2lkIjoiNjI0MjQzNjQ5MjQ2OTYyMzE3MiIsInJkcyI6IlBDXzUxOTQyNzI0NDU5NDk4MzUyODV8UFJPRF9QQ181MTk0MjcyNDQ1OTQ5ODM1Mjg1IiwicXVlcnkiOiJDb2ZmZWUifQ\u003d\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTYyNjYwNjcxODA1MTUyNzA3MCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI5NDA5Mjc4NTQyOTk4OTU2NDciLCJpbWFnZURvY2lkIjoiNjI0MjQzNjQ5MjQ2OTYyMzE3MiIsInJkcyI6IlBDXzUxOTQyNzI0NDU5NDk4MzUyODV8UFJPRF9QQ181MTk0MjcyNDQ1OTQ5ODM1Mjg1IiwicXVlcnkiOiJDb2ZmZWUifQ%3D%3D"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538daadcc11d8ca4ac7b08d2555569c1a03d3.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da856c995d9e8cef0d125b8f9320e53852b53ad216807d26ec.png",
+      "source": "Death Wish Coffee Company",
+      "title": "Death Wish Coffee Dark Roast Coffee",
+      "rating": 4.8,
+      "reviews": 6600,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "original_price": "$20",
+      "extracted_original_price": 20,
+      "delivery": "Free $50+",
+      "extensions": [
+        "20% OFF"
+      ],
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg0Mzk0NjI0ODMyNTY1NjM0IiwidmMiOiIiLCJ2c2MiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY0MDcyMDMxNDU3ODY2MjE1NCIsImltYWdlRG9jaWQiOiIxNzk4MTkyOTI0Nzk1MjY4MTc1OCIsInJkcyI6IlBDXzE2MTAxNTUwMjUxOTE0OTY1MTkzfFBST0RfUENfMTYxMDE1NTAyNTE5MTQ5NjUxOTMiLCJxdWVyeSI6IkNvZmZlZSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg0Mzk0NjI0ODMyNTY1NjM0IiwidmMiOiIiLCJ2c2MiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY0MDcyMDMxNDU3ODY2MjE1NCIsImltYWdlRG9jaWQiOiIxNzk4MTkyOTI0Nzk1MjY4MTc1OCIsInJkcyI6IlBDXzE2MTAxNTUwMjUxOTE0OTY1MTkzfFBST0RfUENfMTYxMDE1NTAyNTE5MTQ5NjUxOTMiLCJxdWVyeSI6IkNvZmZlZSJ9"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538dab94b822abb8ed71e886403ade2dae3af.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da400f35fa2f18cccfb8fbb76f3bd87d16a24f861f54cb0110.png",
+      "source": "Walmart",
+      "title": "Cafe Bustelo Coffee Espresso",
+      "rating": 4.7,
+      "reviews": 5700,
+      "price": "$5.37",
+      "extracted_price": 5.37,
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzcxMjEyMTQyODA1NzU5MjU2MCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMzQ2ODIxODEyNTM4NzgwODgyMyIsImltYWdlRG9jaWQiOiIxMDMwODYzNjE1ODg1OTEyOTgyNCIsInJkcyI6IlBDXzM4NzQxMjAxOTQzNjI0NTQ5NXxQUk9EX1BDXzM4NzQxMjAxOTQzNjI0NTQ5NSIsInF1ZXJ5IjoiQ29mZmVlIn0\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzcxMjEyMTQyODA1NzU5MjU2MCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMzQ2ODIxODEyNTM4NzgwODgyMyIsImltYWdlRG9jaWQiOiIxMDMwODYzNjE1ODg1OTEyOTgyNCIsInJkcyI6IlBDXzM4NzQxMjAxOTQzNjI0NTQ5NXxQUk9EX1BDXzM4NzQxMjAxOTQzNjI0NTQ5NSIsInF1ZXJ5IjoiQ29mZmVlIn0%3D"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da65f780af1354a907e482dbf4831a36ba.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538daef12fbc0c7e4c0e98b1b11ebe1855f948aab7689223015ac.png",
+      "source": "Black Rifle Coffee Company",
+      "title": "Black Rifle Coffee Company Freedom Fuel Coffee Roast",
+      "rating": 4.4,
+      "reviews": 86,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ5MTE4Mzk0MjE3NDcwMDA0MDMiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI1Mjg0OTk4ODAzNTQ4OTQ5OTAiLCJpbWFnZURvY2lkIjoiMTE3NzAxNzk2NzcwMzkxOTM3MDEiLCJyZHMiOiJQQ18xNjIwNjM4MjQwMzg5MzU1MjYwNHxQUk9EX1BDXzE2MjA2MzgyNDAzODkzNTUyNjA0IiwicXVlcnkiOiJDb2ZmZWUifQ\u003d\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ5MTE4Mzk0MjE3NDcwMDA0MDMiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI1Mjg0OTk4ODAzNTQ4OTQ5OTAiLCJpbWFnZURvY2lkIjoiMTE3NzAxNzk2NzcwMzkxOTM3MDEiLCJyZHMiOiJQQ18xNjIwNjM4MjQwMzg5MzU1MjYwNHxQUk9EX1BDXzE2MjA2MzgyNDAzODkzNTUyNjA0IiwicXVlcnkiOiJDb2ZmZWUifQ%3D%3D"
+    },
+    {
+      "category": "Popular products",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da236d4c1e2f5ac83f5a6a9eb0d91e8b8d.webp",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/cc0f8df96bcfb93381b26d0884c538da3af182507f69030987e95dc99b348a6d841fda88dce6becb.png",
+      "source": "Bones Coffee Company",
+      "title": "Ground Bones Coffee 5 Bag Sample Pack",
+      "rating": 4.8,
+      "reviews": 11000,
+      "price": "$33.00",
+      "extracted_price": 33.0,
+      "delivery": "Free $75+",
+      "immersive_product_page_token": "eyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzczMzU1MzAzMjAzNjY3NzU4NCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTMzNDk3ODQ3NTQ0MjgyMTU3MzAiLCJpbWFnZURvY2lkIjoiNjM0OTk5OTM3ODA1MjkzOTY3MyIsInJkcyI6IlBDXzE0NjE1ODQ1OTU5MTc4NTY1OTAxfFBST0RfUENfMTQ2MTU4NDU5NTkxNzg1NjU5MDEiLCJxdWVyeSI6IkNvZmZlZSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?engine\u003dgoogle_immersive_product\u0026page_token\u003deyJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzczMzU1MzAzMjAzNjY3NzU4NCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTMzNDk3ODQ3NTQ0MjgyMTU3MzAiLCJpbWFnZURvY2lkIjoiNjM0OTk5OTM3ODA1MjkzOTY3MyIsInJkcyI6IlBDXzE0NjE1ODQ1OTU5MTc4NTY1OTAxfFBST0RfUENfMTQ2MTU4NDU5NTkxNzg1NjU5MDEiLCJxdWVyeSI6IkNvZmZlZSJ9"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "Is coffee good or bad for health?",
+      "snippet": "Hu said that moderate coffee intake—about 2–5 cups a day—is linked to a lower likelihood of type 2 diabetes, heart disease, liver and endometrial cancers, Parkinson\u0027s disease, and depression. It\u0027s even possible that people who drink coffee can reduce their risk of early death.",
+      "title": "Is coffee good or bad for your health? | News - HSPH.Harvard.edu",
+      "link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/#:~:text\u003dHu%20said%20that%20moderate%20coffee,their%20risk%20of%20early%20death.",
+      "displayed_link": "https://www.hsph.harvard.edu › news › hsph-in-the-news",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/5ae93d5c060bdeea57bc03649c1bf0f513a5bc5ae3265bd7f435c89e07601cf3.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiSXMgY29mZmVlIGdvb2Qgb3IgYmFkIGZvciBoZWFsdGg/IiwibGsiOiJHaUJwY3lCamIyWm1aV1VnWjI5dlpDQnZjaUJpWVdRZ1ptOXlJR2hsWVd4MGFBIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ\u003d\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle_related_questions\u0026google_domain\u003dgoogle.com\u0026next_page_token\u003deyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiSXMgY29mZmVlIGdvb2Qgb3IgYmFkIGZvciBoZWFsdGg%2FIiwibGsiOiJHaUJwY3lCamIyWm1aV1VnWjI5dlpDQnZjaUJpWVdRZ1ptOXlJR2hsWVd4MGFBIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ%3D%3D"
+    },
+    {
+      "question": "What is coffee good for?",
+      "snippet": "Coffee is a great source of antioxidants. Coffee contains the antioxidant chlorogenic acid, which may be used to help fight diabetes. Coffee also contains a compound called trigonelline, which may help prevent dental cavities. And coffee is high in quinine, a compound commonly used to treat malaria.",
+      "title": "Is coffee good for your health? - Piedmont Healthcare",
+      "link": "https://www.piedmont.org/living-real-change/is-coffee-good-for-your-health#:~:text\u003dCoffee%20is%20a%20great%20source,commonly%20used%20to%20treat%20malaria.",
+      "displayed_link": "https://www.piedmont.org › living-real-change › is-coffe...",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQ-UPRbkw01XwercwNButxQmLzyiIXERAQVLHQ6-_ul5A\u0026s",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/5ae93d5c060bdeea57bc03649c1bf0f5ab691aa44ed1276eafe765f559970df5.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBjb2ZmZWUgZ29vZCBmb3I/IiwibGsiOiJHaGQzYUdGMElHbHpJR052Wm1abFpTQm5iMjlrSUdadmNnIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ\u003d\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle_related_questions\u0026google_domain\u003dgoogle.com\u0026next_page_token\u003deyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBjb2ZmZWUgZ29vZCBmb3I%2FIiwibGsiOiJHaGQzYUdGMElHbHpJR052Wm1abFpTQm5iMjlrSUdadmNnIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ%3D%3D"
+    },
+    {
+      "question": "What does coffee do to the body?",
+      "snippet": "The caffeine in coffee works by stimulating the central nervous system (CNS), heart, and muscles. Chlorogenic acid might affect blood vessels and how the body handles blood sugar and metabolism. People most commonly drink coffee to increase mental alertness.",
+      "title": "COFFEE - Uses, Side Effects, and More - WebMD",
+      "link": "https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee#:~:text\u003dThe%20caffeine%20in%20coffee%20works,coffee%20to%20increase%20mental%20alertness.",
+      "displayed_link": "https://www.webmd.com › vitamins › ingredientmono-980",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/5ae93d5c060bdeea57bc03649c1bf0f5d7c53e7e9c2f9839ed4aaa6e83320988.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIGNvZmZlZSBkbyB0byB0aGUgYm9keT8iLCJsayI6ImM1T1NMODlJTEZGSXlVOHRWa2pPVDB0TFRRV3lGVXFBS0NOVklTa19wUklBIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ\u003d\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle_related_questions\u0026google_domain\u003dgoogle.com\u0026next_page_token\u003deyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIGNvZmZlZSBkbyB0byB0aGUgYm9keT8iLCJsayI6ImM1T1NMODlJTEZGSXlVOHRWa2pPVDB0TFRRV3lGVXFBS0NOVklTa19wUklBIiwiYnMiOiJjLVB5NGxMMExGWkl6azlMUzAxVlNNX1BUMUhJTDFKSVNreFJTQVBTR2FtSk9TVVo5aEozREl5VXBCUXlDYWpqc3VDU0NNOUlMRUZYQ0ZSaExfSEIya2hTU3J3Y3V6U1hCNWNDV0dkS2ZpcGNNaVZmb1FTSU1sSVZrdkpUS3UwbF9ob2FLVXJKbC1OWHhoWEJwWUV3S1RXeEpETXZIVlZsWlg1cEVkVEVhVHBHbWxMcTVjUXBGMkFFQUEiLCJpZCI6ImZjX3B2NFlaOURRTk4yajVOb1B6LVBMOEE0XzMifQ%3D%3D"
+    },
+    {
+      "question": "What does eating coffee do to your body?",
+      "snippet": "Eating coffee gives you even more antioxidants. Coffee is the number one source of antioxidants for Americans. The range of health benefits is wide: antioxidants clean free radicals out of your bloodstream, and are linked to the prevention of cancer, cardiovascular disease, cognitive impairment, and immune dysfunction.",
+      "title": "Three Surprising Health Benefits of Eating Coffee",
+      "link": "https://www.eatyour.coffee/blogs/fitness/three-surprising-health-benefits-of-eating-coffee#:~:text\u003dEating%20coffee%20gives%20you%20even%20more%20antioxidants.\u0026text\u003dCoffee%20is%20the%20number%20one,cognitive%20impairment%2C%20and%20immune%20dysfunction.",
+      "displayed_link": "https://www.eatyour.coffee › blogs › fitness › three-surpr...",
+      "source_logo": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/5ae93d5c060bdeea57bc03649c1bf0f560c84e1ea511d2be32b37718e34ed4d8.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIGVhdGluZyBjb2ZmZWUgZG8gdG8geW91ciBib2R5PyIsImxrIjoiR2lkM2FHRjBJR1J2WlhNZ1pXRjBhVzVuSUdOdlptWmxaU0JrYnlCMGJ5QjViM1Z5SUdKdlpIayIsImJzIjoiYy1QeTRsTDBMRlpJems5TFMwMVZTTV9QVDFISUwxSklTa3hSU0FQU0dhbUpPU1VaOWhKM0RJeVVwQlF5Q2FqanN1Q1NDTTlJTEVGWENGUmhMX0hCMmtoU1Nyd2N1elNYQjVjQ1dHZEtmaXBjTWlWZm9RU0lNbElWa3ZKVEt1MGxfaG9hS1VySmwtTlh4aFhCcFlFd0tUV3hKRE12SFZWbFpYNXBFZFRFYVRwR21sTHE1Y1FwRjJBRUFBIiwiaWQiOiJmY19wdjRZWjlEUU5OMmo1Tm9Qei1QTDhBNF8zIn0\u003d",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle_related_questions\u0026google_domain\u003dgoogle.com\u0026next_page_token\u003deyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2RtVlhkbUp4TWxaNGIxaExNMFJyUW1oa1dIb3phVFZWY1Y4dFRUaFBXV3h0V1djdFEwOUxjVlZQTUhWRldqSkdhVEZvVkRSbGRtcGliVVZIWmpGTGNrdFBabG94RWhkd2RqUlpXamxFVVU1T01tbzFUbTlRZWkxUVREaEJOQm9pUVVaWWNrVmpiMTg0TXpJM1ltNDJWRWd0VURSVmJsVnVNamxSYTNGeE5EUjVkdyIsImZjdiI6IjMiLCJlaSI6InB2NFlaOURRTk4yajVOb1B6LVBMOEE0IiwicWMiOiJDZ1pqYjJabVpXVVFBSDBMbHpFXyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIGVhdGluZyBjb2ZmZWUgZG8gdG8geW91ciBib2R5PyIsImxrIjoiR2lkM2FHRjBJR1J2WlhNZ1pXRjBhVzVuSUdOdlptWmxaU0JrYnlCMGJ5QjViM1Z5SUdKdlpIayIsImJzIjoiYy1QeTRsTDBMRlpJems5TFMwMVZTTV9QVDFISUwxSklTa3hSU0FQU0dhbUpPU1VaOWhKM0RJeVVwQlF5Q2FqanN1Q1NDTTlJTEVGWENGUmhMX0hCMmtoU1Nyd2N1elNYQjVjQ1dHZEtmaXBjTWlWZm9RU0lNbElWa3ZKVEt1MGxfaG9hS1VySmwtTlh4aFhCcFlFd0tUV3hKRE12SFZWbFpYNXBFZFRFYVRwR21sTHE1Y1FwRjJBRUFBIiwiaWQiOiJmY19wdjRZWjlEUU5OMmo1Tm9Qei1QTDhBNF8zIn0%3D"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Coffee",
+      "link": "https://en.wikipedia.org/wiki/Coffee",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://en.wikipedia.org/wiki/Coffee\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECBUQAQ",
+      "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
+      "thumbnail": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408cbef1948574734255bb9831cf562c01a.jpeg",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408e71d1f927f2d39cff3123f0acc21a231.png",
+      "snippet": "Coffee is a beverage brewed from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due ...",
+      "snippet_highlighted_words": [
+        "Coffee",
+        "coffee",
+        "coffee"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "History",
+            "link": "https://en.wikipedia.org/wiki/History_of_coffee"
+          },
+          {
+            "title": "Coffee bean",
+            "link": "https://en.wikipedia.org/wiki/Coffee_bean"
+          },
+          {
+            "title": "Coffee production",
+            "link": "https://en.wikipedia.org/wiki/Coffee_production"
+          },
+          {
+            "title": "Coffee preparation",
+            "link": "https://en.wikipedia.org/wiki/Coffee_preparation"
+          }
+        ]
+      },
+      "source": "Wikipedia"
+    },
+    {
+      "position": 2,
+      "title": "Peet\u0027s Coffee | The Original Craft Coffee, Est. 1966",
+      "link": "https://www.peets.com/",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://www.peets.com/\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECBMQAQ",
+      "displayed_link": "https://www.peets.com",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408dc821bd3f36710a76142225d2ed98778.png",
+      "snippet": "Since 1966, Peet\u0027s Coffee has sourced and offered superior coffees and teas and adhering to strict high-quality and taste standards. Shop today.",
+      "snippet_highlighted_words": [
+        "Coffee",
+        "coffees"
+      ],
+      "source": "Peet\u0027s Coffee"
+    },
+    {
+      "position": 3,
+      "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
+      "link": "https://bluebottlecoffee.com/?srsltid\u003dAfmBOoqvNaQucuvn3cmh0bz3DqTE2imnOswmcwRu4uPq0VnRuvpDWoVT",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://bluebottlecoffee.com/%3Fsrsltid%3DAfmBOoqvNaQucuvn3cmh0bz3DqTE2imnOswmcwRu4uPq0VnRuvpDWoVT\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECC4QAQ",
+      "displayed_link": "https://bluebottlecoffee.com",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQqs1eCS6EmKSTLjmGm71KImEfM0G1t8ZPcFXRUKnJzyN-d2Rh2o-8F\u0026usqp\u003dCAE\u0026s",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408e19109d297fbb8872992468556b2aa27.png",
+      "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, \u0026 Japan. Shop our freshly roasted specialty coffee online \u0026 in-store.",
+      "snippet_highlighted_words": [
+        "Coffee",
+        "coffee",
+        "coffee"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Specialty Whole Bean Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng/shop/coffee"
+          },
+          {
+            "title": "Browse Our Cafes",
+            "link": "https://bluebottlecoffee.com/cafes"
+          },
+          {
+            "title": "Our Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng/our-coffee"
+          },
+          {
+            "title": "Blue Bottle Coffee",
+            "link": "https://support.bluebottlecoffee.com/hc/en-us"
+          }
+        ]
+      },
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "unknown": 30
+          },
+          "extensions": [
+            "30",
+            "day returns"
+          ]
+        }
+      },
+      "source": "Blue Bottle Coffee"
+    },
+    {
+      "position": 4,
+      "title": "Starbucks Coffee Company",
+      "link": "https://www.starbucks.com/",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://www.starbucks.com/\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECCkQAQ",
+      "displayed_link": "https://www.starbucks.com",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408444554028d7d1559264077d8897b7de2.png",
+      "snippet": "More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.",
+      "snippet_highlighted_words": [
+        "coffee"
+      ],
+      "source": "Starbucks"
+    },
+    {
+      "position": 5,
+      "title": "What is Coffee?",
+      "link": "https://www.ncausa.org/about-coffee/what-is-coffee",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://www.ncausa.org/about-coffee/what-is-coffee\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECCcQAQ",
+      "displayed_link": "https://www.ncausa.org › About Coffee › What is Coffee?",
+      "snippet": "Coffee traces its origin to a genus of plants known as Coffea. Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs.",
+      "snippet_highlighted_words": [
+        "Coffee"
+      ],
+      "source": "National Coffee Association"
+    },
+    {
+      "position": 6,
+      "title": "Coffee | Origin, Types, Uses, History, \u0026 Facts",
+      "link": "https://www.britannica.com/topic/coffee",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://www.britannica.com/topic/coffee\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECDIQAQ",
+      "displayed_link": "https://www.britannica.com › ... › Food",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSAnVM0H5-8HgFFgrpSm9fyUj4LRexFYCC36QequTjOCYxXEnBZfi5A\u0026usqp\u003dCAE\u0026s",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f8408f84696b565a1702d82cabe6e41e6b0f1.png",
+      "date": "Oct 15, 2024",
+      "snippet": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant.",
+      "snippet_highlighted_words": [
+        "Coffee",
+        "coffee"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "History of coffee",
+            "link": "https://www.britannica.com/topic/history-of-coffee"
+          },
+          {
+            "title": "Using coffee",
+            "link": "https://www.britannica.com/topic/coffee/Using-coffee"
+          },
+          {
+            "title": "Decaffeinated coffee",
+            "link": "https://www.britannica.com/topic/decaffeinated-coffee"
+          },
+          {
+            "title": "Cold-brew coffee",
+            "link": "https://www.britannica.com/topic/cold-brew-coffee"
+          }
+        ]
+      },
+      "source": "Britannica"
+    },
+    {
+      "position": 7,
+      "title": "Klatch Coffee | Where Coffee Is The Conversation",
+      "link": "https://www.klatchcoffee.com/?srsltid\u003dAfmBOopcZs2Yft8Jgb5fWSS6zQpaKaQO7Q5Rjl3FiYFs60MMVoM2Ak3i",
+      "redirect_link": "https://www.google.com/url?sa\u003dt\u0026source\u003dweb\u0026rct\u003dj\u0026opi\u003d89978449\u0026url\u003dhttps://www.klatchcoffee.com/%3Fsrsltid%3DAfmBOopcZs2Yft8Jgb5fWSS6zQpaKaQO7Q5Rjl3FiYFs60MMVoM2Ak3i\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4QFnoECCgQAQ",
+      "displayed_link": "https://www.klatchcoffee.com",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQ4tgdJHEXiYMlda6d0TGVwZzM3YuJCwKwEowWzwKueAa7vHez0PJ4Z\u0026usqp\u003dCAE\u0026s",
+      "favicon": "https://serpapi.com/searches/6718fea6749783b34624dbdd/images/f35b4a17832a2ca9f63f197dee7f840821a68c0b505e79bb10eaac2b097dbbc7.png",
+      "snippet": "Take our interactive quiz to find the coffee that suits your taste. In just a few clicks, we\u0027ll unveil your ideal roast and match you with the perfect brew.",
+      "snippet_highlighted_words": [
+        "coffee"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Cafe Menu",
+            "link": "https://www.klatchcoffee.com/pages/menu"
+          },
+          {
+            "title": "Wholesale Coffee...",
+            "link": "https://www.klatchcoffee.com/pages/wholesale"
+          },
+          {
+            "title": "Single Origin Coffee",
+            "link": "https://www.klatchcoffee.com/collections/single-origin"
+          },
+          {
+            "title": "Coffee Subscription service",
+            "link": "https://www.klatchcoffee.com/pages/subscriptions"
+          }
+        ]
+      },
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "unknown": 30
+          },
+          "extensions": [
+            "30",
+            "day returns"
+          ]
+        }
+      },
+      "source": "Klatch Coffee"
+    }
+  ],
+  "top_stories_link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee\u0026udm\u003d2\u0026source\u003duniv\u0026fir\u003doBlbAErPFaelcM%252CU6oJMnF-eeVTAM%252C_%253BllN6NXUVBY2d_M%252CwlMSbsx4H7MC9M%252C_%253BfkVN4OOwbvG_5M%252CMKf2RNV50tnAQM%252C_%253BF5T37Ac5hVBjEM%252CaclSXnkbwCSDqM%252C_%253BHXg9nuLK1wMULM%252C5lfN4n2nZIMzkM%252C_%253BqiJQUVlAzi1sHM%252CkzmdGVh8xu2RsM%252C_%253Bmh2BgWuCBRB0DM%252CZXmWfA6lU5CvMM%252C_%253BwQ-MV6juKAfMsM%252CLe_shlToZ2_z7M%252C_%253B03M16n07-dtjeM%252CWikbu4ipU2-bVM%252C_\u0026usg\u003dAI4_-kTkphR8AI8lsKpFRXoaRcyZI6RObA\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q7Al6BAgmEAY",
+  "top_stories_serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee",
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Coffee Machine",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+Machine\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAhAEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+Machine"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee brand",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+brand\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg_EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+brand"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee recipe",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+recipe\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg9EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+recipe"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee near me",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+near+me\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg8EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee Powder",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+Powder\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg7EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+Powder"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee benefits",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+benefits\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg6EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+benefits"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee price",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+price\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg4EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+price"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee menu",
+      "link": "https://www.google.com/search?sca_esv\u003db8f7a68888e6939d\u0026q\u003dCoffee+menu\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q1QJ6BAg0EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+menu"
+    }
+  ],
+  "refine_this_search": [
+    {
+      "query": "Nearby",
+      "link": "https://www.google.com/search?q\u003dCoffee+nearby\u0026shoprs\u003dGAMqBmNvZmZlZTIMCAMSBk5lYXJieRgCWLfLH2AB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAF6BAgbEFM",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+nearby"
+    },
+    {
+      "query": "Get it fast",
+      "link": "https://www.google.com/search?q\u003dcoffee\u0026shoprs\u003dEg2aAQoKCBADOAFABkgBGBQqBmNvZmZlZTIkCBQSC0dldCBpdCBmYXN0Ig2aAQoKCBADOAFABkgBKgQQARgBYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAJ6BAgbEFQ",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dcoffee"
+    },
+    {
+      "query": "Whole Bean",
+      "link": "https://www.google.com/search?q\u003dwhole+bean+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIaCAESCldob2xlIEJlYW46Cgju_jgQ8f44MAJYt8sfYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAN6BAgbEFU",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dwhole+bean+coffee"
+    },
+    {
+      "query": "On sale",
+      "link": "https://www.google.com/search?q\u003dCoffee+sale\u0026shoprs\u003dEgRKAhgBGAYqBmNvZmZlZTITCAYSB09uIHNhbGUYAiIESgIYAVi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAR6BAgbEFY",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+sale"
+    },
+    {
+      "query": "Brand",
+      "link": "https://www.google.com/search?q\u003dbrand+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIJCBISBUJyYW5kYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAV6BAgbEFc",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dbrand+coffee"
+    },
+    {
+      "query": "Pod",
+      "link": "https://www.google.com/search?q\u003dpod+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTITCAESA1BvZDoKCPucZRD8nGUwA1i3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAZ6BAgbEFg",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dpod+coffee"
+    },
+    {
+      "query": "Ground",
+      "link": "https://www.google.com/search?q\u003dground+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIWCAESBkdyb3VuZDoKCO7-OBDv_jgwAli3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAd6BAgbEFk",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dground+coffee"
+    },
+    {
+      "query": "Bag",
+      "link": "https://www.google.com/search?q\u003dbag+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTITCAESA0JhZzoKCIGdZRCEnWUwAFi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAh6BAgbEFo",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dbag+coffee"
+    },
+    {
+      "query": "Buy",
+      "link": "https://www.google.com/search?q\u003dbuy+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIHCBISA0J1eWAB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAl6BAgbEFs",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dbuy+coffee"
+    },
+    {
+      "query": "Caffeine-free",
+      "link": "https://www.google.com/search?q\u003dcaffeine-free+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIfCAESDUNhZmZlaW5lLWZyZWU6DAig8YoBEKHxigEwA1i3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAp6BAgbEFw",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dcaffeine-free+coffee"
+    },
+    {
+      "query": "Organic",
+      "link": "https://www.google.com/search?q\u003dorganic+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIZCAESB09yZ2FuaWM6DAi--YcBEL_5hwEwA1i3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAt6BAgbEF0",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dorganic+coffee"
+    },
+    {
+      "query": "Online",
+      "link": "https://www.google.com/search?q\u003donline+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIKCBISBk9ubGluZWAB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKAx6BAgbEF4",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003donline+coffee"
+    },
+    {
+      "query": "Store",
+      "link": "https://www.google.com/search?q\u003dstore+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIJCBISBVN0b3JlYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKA16BAgbEF8",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dstore+coffee"
+    },
+    {
+      "query": "Can",
+      "link": "https://www.google.com/search?q\u003dcan+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTITCAESA0NhbjoKCIGdZRCGnWUwAFi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKA56BAgbEGA",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dcan+coffee"
+    },
+    {
+      "query": "Under $7",
+      "link": "https://www.google.com/search?q\u003dCoffee+under+$7\u0026shoprs\u003dEg0SCxEAAAAA8LNaQRgBGAUqBmNvZmZlZTIhCAUSCFVuZGVyICQ3GAIiDRILEQAAAADws1pBGAEqAhgBWLfLH2AB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKA96BAgbEGE",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee+under+%247"
+    },
+    {
+      "query": "Medium Roast",
+      "link": "https://www.google.com/search?q\u003dmedium+roast+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIcCAESDE1lZGl1bSBSb2FzdDoKCJm4OxCbuDswAFi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBB6BAgbEGI",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dmedium+roast+coffee"
+    },
+    {
+      "query": "Starbucks",
+      "link": "https://www.google.com/search?q\u003dstarbucks+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIZCAESCVN0YXJidWNrczoKCIPzPBCdmUAwAVi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBF6BAgbEGM",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dstarbucks+coffee"
+    },
+    {
+      "query": "Chocolate",
+      "link": "https://www.google.com/search?q\u003dchocolate+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIZCAESCUNob2NvbGF0ZToKCIidZRCMnWUwAFi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBJ6BAgbEGQ",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dchocolate+coffee"
+    },
+    {
+      "query": "Price",
+      "link": "https://www.google.com/search?q\u003dprice+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIJCBISBVByaWNlYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBN6BAgbEGU",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dprice+coffee"
+    },
+    {
+      "query": "Instant",
+      "link": "https://www.google.com/search?q\u003dinstant+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIXCAESB0luc3RhbnQ6Cgju_jgQ8P44MAJYt8sfYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBR6BAgbEGY",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dinstant+coffee"
+    },
+    {
+      "query": "Recipe",
+      "link": "https://www.google.com/search?q\u003drecipe+coffee\u0026shoprs\u003dGBIqBmNvZmZlZTIKCBISBlJlY2lwZWAB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBV6BAgbEGc",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003drecipe+coffee"
+    },
+    {
+      "query": "Dark Roast",
+      "link": "https://www.google.com/search?q\u003ddark+roast+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIaCAESCkRhcmsgUm9hc3Q6CgiZuDsQnbg7MABYt8sfYAE\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBZ6BAgbEGg",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003ddark+roast+coffee"
+    },
+    {
+      "query": "Kosher",
+      "link": "https://www.google.com/search?q\u003dkosher+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTIYCAESBktvc2hlcjoMCPHfhwEQ8t-HATADWLfLH2AB\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBd6BAgbEGk",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dkosher+coffee"
+    },
+    {
+      "query": "Box",
+      "link": "https://www.google.com/search?q\u003dbox+coffee\u0026shoprs\u003dGAEqBmNvZmZlZTITCAESA0JveDoKCIGdZRCPnWUwAFi3yx9gAQ\u0026sa\u003dX\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Qip4GKBh6BAgbEGo",
+      "serpapi_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dbox+coffee"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d10\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8NMDegQIBhAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d10\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAE",
+      "3": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d20\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAG",
+      "4": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d30\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAI",
+      "5": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d40\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAK",
+      "6": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d50\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAM",
+      "7": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d60\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAO",
+      "8": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d70\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAQ",
+      "9": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d80\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAS",
+      "10": "https://www.google.com/search?q\u003dCoffee\u0026sca_esv\u003db8f7a68888e6939d\u0026ei\u003dpv4YZ9DQNN2j5NoPz-PL8A4\u0026start\u003d90\u0026sa\u003dN\u0026sstk\u003dAagrsuhcwrBe41Hrp_ihjLEVUCu4w5EtOmErO7YszDH1gBBHwIWK-8XtfEkfSOUCTK8xYylYZcj6UyA6R7X__lpb-bfP7fg-P71bbA\u0026ved\u003d2ahUKEwjQu7ad0qSJAxXdEVkFHc_xEu4Q8tMDegQIBhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d10",
+    "next": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d10",
+      "3": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d20",
+      "4": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d30",
+      "5": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d40",
+      "6": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d50",
+      "7": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d60",
+      "8": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d70",
+      "9": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d80",
+      "10": "https://serpapi.com/search.json?device\u003ddesktop\u0026engine\u003dgoogle\u0026google_domain\u003dgoogle.com\u0026location\u003dChennai%2CTamil+Nadu\u0026q\u003dCoffee\u0026start\u003d90"
+    }
+  }
+}

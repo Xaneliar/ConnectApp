@@ -1,0 +1,40 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<div th:if="${not #lists.isEmpty(EVENTRESPONSE.events)}">
+		<table>
+			<tbody>
+				<tr th:each="event: ${EVENTRESPONSE.events}">
+					<table>
+						<tbody>
+							<tr>
+								<td th:text="${event.title}" />
+							</tr>
+							<tr>
+								<td>No Of Reviews</td><td th:text="${event.reviews_original}" />
+							</tr>
+							<tr>
+								<td> Reviews</td><td th:text="${event.reviews}" />
+							</tr>
+							<tr>
+								<td><img th:src="${event.thumbnail}"></td>
+							</tr>
+							<tr>
+								<td th:text="${event.address}" />
+							</tr>
+							<tr>
+								<td th:text="${event.hours}" />
+							</tr>
+							<tr>
+								<td th:text="${event.place_id_search}" />
+							</tr>
+							
+						</tbody>
+					</table>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
