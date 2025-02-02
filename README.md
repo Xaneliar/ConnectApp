@@ -61,7 +61,3 @@ Under the guidance of **Dr. Jagadeesh M** (SRM Institute of Science and Technolo
 This project is licensed under the **MIT License**. Feel free to contribute and enhance the application!
 
 ```
-
----
-
-Let me know if you need any changes! 🚀
